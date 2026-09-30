@@ -1,136 +1,161 @@
+<p align="center">
+  <img src="assets/profile-banner.svg" alt="John Adikwu — Cybersecurity Profile Banner" width="100%">
+</p>
 
-<div align="center">
+<h1 align="center">Hi, I'm John Adikwu 👋</h1>
 
-<img src="assets/banner.png" width="100%" alt="John Adikwu - Cybersecurity Portfolio"/>
+<h3 align="center">Cybersecurity Student | SOC Operations | Blue Team</h3>
 
-# John Adikwu
+<p align="center">
+  Focused on security monitoring, defensive security, threat detection, and incident investigation.
+</p>
 
-### Cybersecurity Student | Security Operations | Blue Team
-
-Security monitoring · Threat detection · Endpoint security · Incident investigation
-
-[LinkedIn](YOUR_LINKEDIN_URL) · [GitHub](YOUR_GITHUB_URL)
-
-</div>
-
----
-
-## Professional Profile
-
-Cybersecurity student at Ladoke Akintola University of Technology (LAUTECH), focused on Security Operations, defensive security, and threat detection.
-
-Developing practical experience in security monitoring, SIEM operations, endpoint detection and response, network traffic analysis, and incident investigation.
-
-My technical interests include identifying suspicious activity, analyzing security events, investigating potential threats, and documenting findings through structured security reports.
-
-I am committed to continuous technical development through hands-on security labs, practical investigations, and professional learning.
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Security%20Operations-0D9488?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Domain-Blue%20Team-155E75?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Interest-Threat%20Detection-166534?style=for-the-badge">
+</p>
 
 ---
 
-## Technical Competencies
+## About Me
 
-### Security Operations & SIEM
-- Security Information and Event Management (SIEM)
-- Security Orchestration, Automation and Response (SOAR)
-- Security event monitoring and log analysis
-- Alert triage and investigation
-- Incident documentation and reporting
+I'm a Cybersecurity student at **Ladoke Akintola University of Technology (LAUTECH)**, developing practical skills in security operations and defensive security.
 
-**Technologies:** Splunk, Elastic Security, SOAR
+My current learning and hands-on practice focus on:
 
-### Endpoint Security & Monitoring
-- Endpoint Detection and Response (EDR)
-- Windows security event analysis
-- Process and activity investigation
-- Endpoint monitoring and threat identification
+- Security monitoring and alert investigation
+- SIEM platforms and security event analysis
+- Endpoint telemetry and detection concepts
+- Network traffic analysis
+- Windows security logs and Sysmon
+- Security documentation and investigation reporting
 
-**Technologies:** Sysmon, Windows Event Logs, Windows Defender
+I enjoy understanding how security events happen, examining the evidence, and documenting findings clearly.
+
+---
+
+## Technical Skills
+
+### SIEM & Security Operations
+
+<p>
+  <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white">
+  <img src="https://img.shields.io/badge/Elastic%20Security-005571?style=flat-square&logo=elastic&logoColor=white">
+  <img src="https://img.shields.io/badge/SOAR-166534?style=flat-square">
+</p>
+
+### Endpoint Detection & Windows Security
+
+<p>
+  <img src="https://img.shields.io/badge/EDR-14532D?style=flat-square">
+  <img src="https://img.shields.io/badge/Sysmon-0078D4?style=flat-square&logo=windows&logoColor=white">
+  <img src="https://img.shields.io/badge/Windows%20Event%20Logs-0078D4?style=flat-square&logo=windows&logoColor=white">
+  <img src="https://img.shields.io/badge/Windows%20Defender-0078D4?style=flat-square&logo=windows&logoColor=white">
+</p>
 
 ### Network & Web Security
-- Network traffic and packet analysis
-- Network protocol investigation
-- Web application security testing
 
-**Technologies:** Wireshark, Burp Suite
+<p>
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white">
+  <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white">
+</p>
 
 ### Operating Systems & Scripting
-- Linux and Windows environments
-- Command-line operations
-- Bash scripting
-- Python programming
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+</p>
 
 ---
 
 ## Practical Experience
 
-### Security Operations & Alert Investigation
+My hands-on practice includes:
 
-Practical exposure to SOC investigation workflows, including:
-
-- Reviewing security alerts and associated event data.
-- Investigating suspicious process activity and parent-child relationships.
-- Examining command-line arguments and endpoint telemetry.
-- Assessing findings and documenting investigation results.
-- Practicing alert classification, escalation, and reporting.
-
-### Security Monitoring & Endpoint Analysis
-
-Hands-on exercises involving Windows security telemetry, Sysmon events, Windows Event Logs, and endpoint security concepts.
-
-### Network Traffic Analysis
-
-Practical exploration of network traffic and packet-level analysis using Wireshark.
+- Reviewing security alerts and investigating suspicious activity
+- Examining process execution and parent-child relationships
+- Inspecting command-line arguments and endpoint activity
+- Working with Sysmon and Windows Event Logs
+- Analyzing network traffic with Wireshark
+- Practicing SIEM searches and security event investigation
+- Preparing investigation notes and alert reports
+- Learning SOAR and EDR concepts through practical exercises
 
 ---
 
-## Projects & Technical Documentation
+## Projects & Labs
 
-A collection of practical cybersecurity exercises, investigation notes, lab configurations, and technical documentation.
+### SOC Investigation Reports
+Documenting security event investigations, observed indicators, analysis steps, and recommended next actions.
 
-| Project | Description |
-|---|---|
-| SOC Investigation Reports | Security alert analysis, findings, and investigation documentation |
-| Endpoint Investigation Labs | Windows event analysis and suspicious process investigation |
-| Cybersecurity Lab Environment | Virtualized environment for practical security exercises |
-| Security Operations Notes | Technical documentation covering SOC workflows and defensive security |
+### Windows Endpoint Monitoring Lab
+Practicing endpoint event collection and investigation using Windows security logs and Sysmon.
 
-*Project repositories and detailed technical write-ups are being organized and published progressively.*
+### SIEM Practice
+Developing familiarity with searching, reviewing, and investigating security events in SIEM platforms.
+
+### Virtual Cybersecurity Lab
+Building and using virtual machines for controlled cybersecurity exercises and defensive security practice.
+
+> Project repositories and detailed write-ups will be added here as they are published.
 
 ---
 
-## Professional Development
+## Currently Developing
 
-Continuously developing technical knowledge in:
+These are areas I plan to deepen through continued study and practical projects:
 
-- Advanced SIEM operations and detection engineering
-- Threat hunting and threat intelligence
-- Incident response and investigation
-- Security automation and SOAR workflows
-- Digital forensics and endpoint investigation
-- Network defense and security monitoring
+- Advanced SIEM searches and detection development
+- Threat hunting methodologies
+- Incident response workflows
+- Security automation
+- Digital forensics fundamentals
+- Threat intelligence analysis
 
 ---
 
 ## Education
 
-**Ladoke Akintola University of Technology (LAUTECH)**
-
+**Ladoke Akintola University of Technology (LAUTECH)**  
 Cybersecurity
 
 ---
 
-## Contact
+## GitHub Activity
 
-Interested in cybersecurity collaboration, technical discussions, security research, and professional opportunities.
+<p align="center">
+  <img height="165"
+       src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&hide_border=true&theme=tokyonight"
+       alt="GitHub statistics">
+  <img height="165"
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&hide_border=true&theme=tokyonight"
+       alt="Most used languages">
+</p>
 
-- GitHub: YOUR_GITHUB_URL
-- LinkedIn: YOUR_LINKEDIN_URL
-- Email: YOUR_EMAIL
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=YOUR-GITHUB-USERNAME&theme=tokyonight&hide_border=true"
+       alt="GitHub contribution streak">
+</p>
 
 ---
 
-<div align="center">
+## Connect
 
-**Security Through Knowledge, Investigation, and Continuous Learning.**
+<p>
+  <a href="https://github.com/YOUR-GITHUB-USERNAME">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</p>
 
-</div>
+---
+
+<p align="center">
+  <b>LEARN TODAY. DEFEND TOMORROW. GROW ALWAYS.</b>
+</p>
