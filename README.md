@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="John Adikwu — Cybersecurity Profile Banner" width="100%">
+  <img src="mo.svg" alt="John Adikwu — Cybersecurity Profile Banner" width="100%">
 </p>
 
 <h1 align="center">Hi, I'm John Adikwu 👋</h1>
