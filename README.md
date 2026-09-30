@@ -1,215 +1,136 @@
 
-<!-- ===================================================== -->
-<!--                 JOHN ADIKWU PROFILE                   -->
-<!-- ===================================================== -->
-
 <div align="center">
 
-<img src="assets/banner.png" width="100%" alt="John Adikwu Cybersecurity Portfolio Banner"/>
+<img src="assets/banner.png" width="100%" alt="John Adikwu - Cybersecurity Portfolio"/>
 
-<br/>
+# John Adikwu
 
-# JOHN ADIKWU
+### Cybersecurity Student | Security Operations | Blue Team
 
-### Cybersecurity Student | Aspiring SOC Analyst
+Security monitoring · Threat detection · Endpoint security · Incident investigation
 
-**Blue Team • Security Operations • Threat Detection**
-
-*Learning to detect threats, investigate incidents, and build a safer digital world.*
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](YOUR_GITHUB_URL)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
+[LinkedIn](YOUR_LINKEDIN_URL) · [GitHub](YOUR_GITHUB_URL)
 
 </div>
 
 ---
 
-## `01 // WHOAMI`
+## Professional Profile
 
-```bash
-┌──(john㉿cybersec)-[~]
-└─$ whoami
+Cybersecurity student at Ladoke Akintola University of Technology (LAUTECH), focused on Security Operations, defensive security, and threat detection.
 
-John Adikwu
+Developing practical experience in security monitoring, SIEM operations, endpoint detection and response, network traffic analysis, and incident investigation.
 
-┌──(john㉿cybersec)-[~]
-└─$ cat about.txt
+My technical interests include identifying suspicious activity, analyzing security events, investigating potential threats, and documenting findings through structured security reports.
 
-Cybersecurity student focused on defensive security,
-SOC operations, threat detection, and incident investigation.
-
-Currently developing practical skills in SIEM operations,
-endpoint monitoring, network analysis, and security automation.
-
-Career Goal:
-Become a skilled SOC Analyst and contribute to
-building a safer and more secure digital environment.
-```
-
-I'm a cybersecurity student passionate about understanding how security teams monitor systems, identify suspicious activities, investigate threats, and respond to security incidents.
-
-My learning journey focuses on practical cybersecurity experience through hands-on labs, security investigations, technical documentation, and continuous learning.
-
-I enjoy breaking down security concepts, analyzing logs, and documenting my findings to strengthen my understanding of real-world security operations.
+I am committed to continuous technical development through hands-on security labs, practical investigations, and professional learning.
 
 ---
 
-## `02 // CURRENT SKILLS & SECURITY ARSENAL`
+## Technical Competencies
 
-### SIEM & Security Operations
+### Security Operations & SIEM
+- Security Information and Event Management (SIEM)
+- Security Orchestration, Automation and Response (SOAR)
+- Security event monitoring and log analysis
+- Alert triage and investigation
+- Incident documentation and reporting
 
-<p align="left">
-<img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Elastic_Security-005571?style=for-the-badge&logo=elastic&logoColor=white"/>
-<img src="https://img.shields.io/badge/SOAR-263238?style=for-the-badge"/>
-</p>
+**Technologies:** Splunk, Elastic Security, SOAR
 
-### Endpoint Detection & Response (EDR)
+### Endpoint Security & Monitoring
+- Endpoint Detection and Response (EDR)
+- Windows security event analysis
+- Process and activity investigation
+- Endpoint monitoring and threat identification
 
-<p align="left">
-<img src="https://img.shields.io/badge/EDR-087E8B?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Sysmon-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
-<img src="https://img.shields.io/badge/Windows_Event_Logs-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
-<img src="https://img.shields.io/badge/Windows_Defender-00A4EF?style=for-the-badge&logo=microsoftdefender&logoColor=white"/>
-</p>
+**Technologies:** Sysmon, Windows Event Logs, Windows Defender
 
 ### Network & Web Security
+- Network traffic and packet analysis
+- Network protocol investigation
+- Web application security testing
 
-<p align="left">
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
-<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white"/>
-</p>
+**Technologies:** Wireshark, Burp Suite
 
 ### Operating Systems & Scripting
-
-<p align="left">
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
+- Linux and Windows environments
+- Command-line operations
+- Bash scripting
+- Python programming
 
 ---
 
-## `03 // CYBERSECURITY FOCUS`
+## Practical Experience
 
-| Security Domain | Focus |
+### Security Operations & Alert Investigation
+
+Practical exposure to SOC investigation workflows, including:
+
+- Reviewing security alerts and associated event data.
+- Investigating suspicious process activity and parent-child relationships.
+- Examining command-line arguments and endpoint telemetry.
+- Assessing findings and documenting investigation results.
+- Practicing alert classification, escalation, and reporting.
+
+### Security Monitoring & Endpoint Analysis
+
+Hands-on exercises involving Windows security telemetry, Sysmon events, Windows Event Logs, and endpoint security concepts.
+
+### Network Traffic Analysis
+
+Practical exploration of network traffic and packet-level analysis using Wireshark.
+
+---
+
+## Projects & Technical Documentation
+
+A collection of practical cybersecurity exercises, investigation notes, lab configurations, and technical documentation.
+
+| Project | Description |
 |---|---|
-| SOC Operations | Alert triage, investigation and reporting |
-| SIEM | Security event monitoring and log analysis |
-| EDR | Endpoint monitoring and suspicious activity investigation |
-| Network Security | Packet analysis and network traffic inspection |
-| Incident Response | Investigation, escalation and documentation |
-| Threat Detection | Identifying suspicious processes and activities |
-| Security Automation | Understanding automated security workflows |
+| SOC Investigation Reports | Security alert analysis, findings, and investigation documentation |
+| Endpoint Investigation Labs | Windows event analysis and suspicious process investigation |
+| Cybersecurity Lab Environment | Virtualized environment for practical security exercises |
+| Security Operations Notes | Technical documentation covering SOC workflows and defensive security |
+
+*Project repositories and detailed technical write-ups are being organized and published progressively.*
 
 ---
 
-## `04 // FUTURE LEARNING ROADMAP`
+## Professional Development
 
-> Building on my current cybersecurity foundation through continuous learning and practical application.
+Continuously developing technical knowledge in:
 
-### Phase 01 — Advanced SOC Operations
-- Advanced Splunk SPL and Elastic KQL
-- SIEM detection rules and correlation
-- Advanced alert triage and investigation
-- Security monitoring and escalation workflows
-
-### Phase 02 — Threat Hunting & Detection Engineering
-- MITRE ATT&CK framework
-- Threat hunting methodologies
-- Sigma detection rules
-- IOC analysis and threat intelligence
-- Detection engineering fundamentals
-
-### Phase 03 — Advanced Security Operations
-- Microsoft Sentinel
-- Wazuh
-- Zeek and Suricata
-- Advanced EDR investigation
-- Digital forensics and Windows artifacts
-
-### Phase 04 — Security Automation
-- Advanced Python scripting
-- SOAR playbook development
-- Automated alert enrichment
-- Incident response automation
-- Security workflow optimization
-
-*These are future learning goals, not claims of current proficiency.*
+- Advanced SIEM operations and detection engineering
+- Threat hunting and threat intelligence
+- Incident response and investigation
+- Security automation and SOAR workflows
+- Digital forensics and endpoint investigation
+- Network defense and security monitoring
 
 ---
 
-## `05 // PRACTICAL SECURITY WORK`
+## Education
 
-My practical learning focuses on applying cybersecurity concepts to controlled lab environments and documenting investigation findings.
+**Ladoke Akintola University of Technology (LAUTECH)**
 
-### 🔍 SOC Alert Investigation
-Analyzing suspicious process activity, parent-child relationships, command-line arguments, and security event data.
-
-### 🛡️ Endpoint Monitoring
-Working with Sysmon, Windows Event Logs, and endpoint security concepts to understand suspicious activity.
-
-### 📊 Security Alert Reporting
-Practicing alert triage, investigation documentation, escalation decisions, and clear incident reporting.
-
-### 🌐 Network Security Analysis
-Exploring network traffic and packet analysis using Wireshark.
-
-### 🧪 Security Lab Development
-Building virtualized cybersecurity lab environments for practical security exercises.
+Cybersecurity
 
 ---
 
-## `06 // FEATURED PROJECTS`
+## Contact
+
+Interested in cybersecurity collaboration, technical discussions, security research, and professional opportunities.
+
+- GitHub: YOUR_GITHUB_URL
+- LinkedIn: YOUR_LINKEDIN_URL
+- Email: YOUR_EMAIL
+
+---
 
 <div align="center">
 
-| Project | Description | Status |
-|---|---|---|
-| SOC Investigation Notes | Security alert investigation and documentation | In Progress |
-| Cybersecurity Lab Environment | Virtualized practical security lab | In Progress |
-| Security Learning Repository | Technical notes and cybersecurity exercises | In Progress |
-| SOC Alert Reporting | Triage, escalation and reporting exercises | Learning |
-
-</div>
-
-*Project repositories and detailed write-ups will be linked here as they are published.*
-
----
-
-## `07 // GITHUB STATISTICS`
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020617&title_color=5EEAD4&icon_color=5EEAD4&text_color=CBD5E1" />
-
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=020617&ring=5EEAD4&fire=5EEAD4&currStreakLabel=5EEAD4" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=020617&title_color=5EEAD4&text_color=CBD5E1" />
-
-</div>
-
----
-
-## `08 // CONNECT`
-
-<div align="center">
-
-I'm always interested in connecting with cybersecurity learners, SOC analysts, security professionals, and people passionate about defensive security.
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-
-[![GitHub](https://img.shields.io/badge/Explore_My_Repositories-181717?style=for-the-badge&logo=github&logoColor=white)](YOUR_GITHUB_URL)
-
-<br/>
-
-**LEARN TODAY. DEFEND TOMORROW. GROW ALWAYS.**
+**Security Through Knowledge, Investigation, and Continuous Learning.**
 
 </div>
