@@ -2,6 +2,8 @@
      xmlns="http://www.w3.org/2000/svg">
 
   <defs>
+
+    <!-- Background -->
     <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360"
                     gradientUnits="userSpaceOnUse">
       <stop stop-color="#07131D"/>
@@ -9,134 +11,397 @@
       <stop offset="1" stop-color="#071018"/>
     </linearGradient>
 
+    <!-- Accent -->
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#36F3C5"/>
       <stop offset="1" stop-color="#1BA6B8"/>
     </linearGradient>
 
+    <!-- Grid -->
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#1A4350" stroke-width="1" opacity="0.35"/>
+      <path d="M36 0H0V36"
+            stroke="#1A4350"
+            stroke-width="1"
+            opacity="0.35"/>
     </pattern>
 
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <!-- Glow -->
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Stronger glow -->
+    <filter id="strongGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scan gradient -->
+    <linearGradient id="scanGradient">
+      <stop offset="0%" stop-color="#36F3C5" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#36F3C5" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#36F3C5" stop-opacity="0"/>
+    </linearGradient>
+
   </defs>
 
-  <!-- Background -->
+
+  <!-- BACKGROUND -->
   <rect width="1200" height="360" rx="22" fill="url(#background)"/>
-  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
 
-  <!-- Decorative glow -->
-  <circle cx="1010" cy="175" r="190" fill="#0C665F" opacity="0.13"/>
-  <circle cx="1010" cy="175" r="125" fill="#19D6B0" opacity="0.07"/>
+  <!-- Moving grid -->
+  <g>
+    <rect width="1200" height="360" rx="22" fill="url(#grid)">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 0"
+        to="36 36"
+        dur="12s"
+        repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-  <!-- Left accent -->
-  <rect x="48" y="54" width="5" height="252" rx="2.5" fill="url(#accent)"/>
 
-  <!-- Header -->
-  <text x="82" y="93" fill="#36F3C5"
+  <!-- DECORATIVE GLOW -->
+  <circle cx="1010" cy="175" r="190"
+          fill="#0C665F"
+          opacity="0.13">
+
+    <animate
+      attributeName="opacity"
+      values="0.08;0.18;0.08"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="r"
+      values="180;198;180"
+      dur="5s"
+      repeatCount="indefinite"/>
+  </circle>
+
+
+  <circle cx="1010" cy="175" r="125"
+          fill="#19D6B0"
+          opacity="0.07">
+
+    <animate
+      attributeName="opacity"
+      values="0.04;0.12;0.04"
+      dur="3.5s"
+      repeatCount="indefinite"/>
+  </circle>
+
+
+  <!-- LEFT ACCENT -->
+  <rect x="48" y="54"
+        width="5"
+        height="252"
+        rx="2.5"
+        fill="url(#accent)">
+
+    <animate
+      attributeName="opacity"
+      values="0.5;1;0.5"
+      dur="2.5s"
+      repeatCount="indefinite"/>
+  </rect>
+
+
+  <!-- HEADER -->
+  <text x="82" y="93"
+        fill="#36F3C5"
         font-family="Consolas, 'Courier New', monospace"
-        font-size="17" letter-spacing="4">
+        font-size="17"
+        letter-spacing="4">
+
     CYBERSECURITY • SECURITY OPERATIONS
+
+    <animate
+      attributeName="opacity"
+      values="0.65;1;0.65"
+      dur="3s"
+      repeatCount="indefinite"/>
   </text>
 
-  <text x="78" y="163" fill="#F3FAFC"
+
+  <!-- NAME -->
+  <text x="78" y="163"
+        fill="#F3FAFC"
         font-family="Arial, Helvetica, sans-serif"
-        font-size="54" font-weight="700" letter-spacing="1">
+        font-size="54"
+        font-weight="700"
+        letter-spacing="1">
+
     JOHN ADIKWU
   </text>
 
-  <text x="82" y="207" fill="#B8CBD2"
+
+  <!-- DESCRIPTION -->
+  <text x="82" y="207"
+        fill="#B8CBD2"
         font-family="Arial, Helvetica, sans-serif"
         font-size="24">
+
     Cybersecurity Student | SOC Operations | Blue Team
   </text>
 
-  <!-- Divider -->
-  <rect x="82" y="234" width="510" height="2" rx="1" fill="#1C5960"/>
-  <rect x="82" y="234" width="110" height="2" rx="1" fill="#36F3C5"/>
 
-  <text x="82" y="272" fill="#8FAAB4"
+  <!-- DIVIDER -->
+  <rect x="82" y="234"
+        width="510"
+        height="2"
+        rx="1"
+        fill="#1C5960"/>
+
+  <!-- Animated scanning accent -->
+  <rect x="82"
+        y="234"
+        width="110"
+        height="2"
+        rx="1"
+        fill="#36F3C5">
+
+    <animate
+      attributeName="x"
+      values="82;482;82"
+      dur="3s"
+      repeatCount="indefinite"/>
+  </rect>
+
+
+  <!-- SOC TOPICS -->
+  <text x="82" y="272"
+        fill="#8FAAB4"
         font-family="Consolas, 'Courier New', monospace"
         font-size="16">
+
     SIEM  /  EDR  /  THREAT DETECTION  /  INCIDENT ANALYSIS
   </text>
 
-  <!-- Right-side SOC visual -->
-  <g transform="translate(760 55)">
-    <!-- Outer frame -->
-    <rect x="0" y="0" width="360" height="250" rx="14"
-          fill="#091923" stroke="#1E5961" stroke-width="1.5"/>
 
-    <rect x="1" y="1" width="358" height="34" rx="13"
+  <!-- SOC MONITOR -->
+  <g transform="translate(760 55)">
+
+    <!-- Outer frame -->
+    <rect x="0"
+          y="0"
+          width="360"
+          height="250"
+          rx="14"
+          fill="#091923"
+          stroke="#1E5961"
+          stroke-width="1.5"/>
+
+
+    <!-- Window header -->
+    <rect x="1"
+          y="1"
+          width="358"
+          height="34"
+          rx="13"
           fill="#102832"/>
+
+
     <circle cx="20" cy="18" r="4" fill="#FF6B6B"/>
     <circle cx="36" cy="18" r="4" fill="#F6C85F"/>
-    <circle cx="52" cy="18" r="4" fill="#36F3C5"/>
 
-    <text x="76" y="23" fill="#A6C5CC"
+    <!-- Green live indicator -->
+    <circle cx="52" cy="18"
+            r="4"
+            fill="#36F3C5">
+
+      <animate
+        attributeName="r"
+        values="4;6;4"
+        dur="1.5s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values="0.5;1;0.5"
+        dur="1.5s"
+        repeatCount="indefinite"/>
+    </circle>
+
+
+    <text x="76" y="23"
+          fill="#A6C5CC"
           font-family="Consolas, 'Courier New', monospace"
           font-size="12">
+
       SOC_MONITOR / LIVE
     </text>
 
-    <!-- Status -->
-    <circle cx="28" cy="64" r="5" fill="#36F3C5" filter="url(#glow)"/>
-    <text x="43" y="69" fill="#36F3C5"
+
+    <!-- ACTIVE STATUS -->
+    <circle cx="28"
+            cy="64"
+            r="5"
+            fill="#36F3C5"
+            filter="url(#strongGlow)">
+
+      <animate
+        attributeName="r"
+        values="4;8;4"
+        dur="1.8s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values="0.5;1;0.5"
+        dur="1.8s"
+        repeatCount="indefinite"/>
+    </circle>
+
+
+    <text x="43"
+          y="69"
+          fill="#36F3C5"
           font-family="Consolas, 'Courier New', monospace"
           font-size="13">
+
       MONITORING ACTIVE
+
+      <animate
+        attributeName="opacity"
+        values="0.65;1;0.65"
+        dur="2s"
+        repeatCount="indefinite"/>
     </text>
 
-    <!-- Terminal lines -->
-    <text x="25" y="105" fill="#6E9CA8"
+
+    <!-- TERMINAL -->
+    <text x="25"
+          y="105"
+          fill="#6E9CA8"
           font-family="Consolas, 'Courier New', monospace"
           font-size="13">
+
       $ analyze_endpoint --status
     </text>
-    <text x="25" y="132" fill="#D5E8EC"
+
+
+    <text x="25"
+          y="132"
+          fill="#D5E8EC"
           font-family="Consolas, 'Courier New', monospace"
           font-size="13">
+
       [ OK ] Event telemetry received
     </text>
-    <text x="25" y="159" fill="#D5E8EC"
+
+
+    <text x="25"
+          y="159"
+          fill="#D5E8EC"
           font-family="Consolas, 'Courier New', monospace"
           font-size="13">
+
       [ OK ] Network traffic inspected
     </text>
-    <text x="25" y="186" fill="#D5E8EC"
+
+
+    <text x="25"
+          y="186"
+          fill="#D5E8EC"
           font-family="Consolas, 'Courier New', monospace"
           font-size="13">
+
       [ OK ] Alert context reviewed
     </text>
-    <text x="25" y="213" fill="#36F3C5"
+
+
+    <!-- Cursor -->
+    <text x="25"
+          y="213"
+          fill="#36F3C5"
           font-family="Consolas, 'Courier New', monospace"
           font-size="13">
+
       $ ready_for_next_event_
+
+      <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"/>
     </text>
 
-    <!-- Small waveform -->
+
+    <!-- WAVEFORM -->
     <path d="M250 77 L262 77 L270 64 L279 91 L288 71 L297 77
              L307 77 L316 57 L326 94 L336 77 L347 77"
-          stroke="#36F3C5" stroke-width="2" stroke-linecap="round"
-          stroke-linejoin="round" opacity="0.8"/>
+          stroke="#36F3C5"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          opacity="0.8"
+          stroke-dasharray="18 10"
+          filter="url(#glow)">
+
+      <!-- Moving waveform -->
+      <animate
+        attributeName="stroke-dashoffset"
+        from="0"
+        to="-56"
+        dur="1.5s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values="0.35;1;0.35"
+        dur="2s"
+        repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- Small scanning line -->
+    <rect x="15"
+          y="90"
+          width="330"
+          height="1"
+          fill="url(#scanGradient)"
+          opacity="0.5">
+
+      <animate
+        attributeName="y"
+        values="75;225;75"
+        dur="4s"
+        repeatCount="indefinite"/>
+    </rect>
+
   </g>
 
-  <!-- Bottom label -->
-  <text x="82" y="330" fill="#52727D"
+
+  <!-- BOTTOM -->
+  <text x="82"
+        y="330"
+        fill="#52727D"
         font-family="Consolas, 'Courier New', monospace"
-        font-size="12" letter-spacing="2">
+        font-size="12"
+        letter-spacing="2">
+
     LEARN • INVESTIGATE • DEFEND
   </text>
 
-  <text x="1118" y="330" fill="#52727D"
+
+  <text x="1118"
+        y="330"
+        fill="#52727D"
         font-family="Consolas, 'Courier New', monospace"
-        font-size="12" text-anchor="end">
+        font-size="12"
+        text-anchor="end">
+
     BLUE TEAM
   </text>
+
 </svg>
