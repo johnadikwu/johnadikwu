@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="assets/profile-banner.svg" alt="John Adikwu — Cybersecurity Profile Banner" width="100%">
 </p>
