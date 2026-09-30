@@ -1,29 +1,28 @@
 
 ## `~/ security-arsenal`
 
-### Current Tools & Technologies
-
-**SIEM & Security Operations**
+### SIEM & Security Operations
 <p>
 <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white"/>
 <img src="https://img.shields.io/badge/Elastic_Security-005571?style=for-the-badge&logo=elastic&logoColor=white"/>
 <img src="https://img.shields.io/badge/SOAR-263238?style=for-the-badge"/>
 </p>
 
-**Network & Web Security**
+### Endpoint Detection & Response (EDR)
 <p>
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
-<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white"/>
-</p>
-
-**Endpoint Monitoring**
-<p>
+<img src="https://img.shields.io/badge/EDR-0A7EA4?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Sysmon-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
 <img src="https://img.shields.io/badge/Windows_Event_Logs-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
 <img src="https://img.shields.io/badge/Windows_Defender-00A4EF?style=for-the-badge&logo=microsoftdefender&logoColor=white"/>
 </p>
 
-**Operating Systems & Scripting**
+### Network & Web Security
+<p>
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
+<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white"/>
+</p>
+
+### Operating Systems & Scripting
 <p>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
@@ -33,19 +32,14 @@
 
 ---
 
-## `~/ learning-roadmap`
+## `~/ future-learning-roadmap`
 
-### Currently Exploring & Future Goals
-
-| Area | Learning Goals |
+| Focus Area | Next Learning Goals |
 |---|---|
-| SIEM Engineering | Advanced Elastic, Splunk SPL, Microsoft Sentinel |
-| Threat Detection | Detection rules, Sigma, MITRE ATT&CK |
-| Threat Hunting | IOC analysis, threat intelligence, hunting queries |
-| Incident Response | Investigation, containment, recovery |
-| Security Automation | Python automation, SOAR playbooks |
-| Network Defense | Zeek, Suricata, network traffic analysis |
-| Digital Forensics | Windows forensics, artifact analysis |
-| Endpoint Security | EDR concepts, advanced endpoint investigation |
-
-*This roadmap represents technologies and areas I plan to explore as I develop my cybersecurity career.*
+| SIEM Engineering | Advanced SPL, KQL, detection rules |
+| Threat Hunting | Hunting queries, IOC analysis |
+| Detection Engineering | Sigma, MITRE ATT&CK mapping |
+| Security Automation | Advanced Python, SOAR playbooks |
+| Network Defense | Zeek, Suricata |
+| Digital Forensics | Windows artifacts, forensic analysis |
+| Incident Response | Advanced investigation and response |
